@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+}
+.content {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+.sidebar {
+  flex: 1;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.categorias h3,
+.pesquisa h4 {
+  margin-bottom: 12px;
+  color: #333;
+}
+.categorias ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.categorias li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+.barra-pesquisa {
+  position: relative;
+}
+.barra-pesquisa input {
+  width: 100%;
+  padding: 10px 36px 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+
+  
